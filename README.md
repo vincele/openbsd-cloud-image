@@ -24,13 +24,13 @@ See `./build_openbsd_qcow2.sh -h` for more information.
 * Build a standard image:
 
 ```
-./build_openbsd_qcow2.sh -r 7.5 --image-file openbsd.qcow2 -b
+./build_openbsd_qcow2.sh -r 7.8 --image-file openbsd.qcow2 -b
 ```
 
 * Build a customized image (small disk size, custom disklabel, disabled sets):
 
 ```
-./build_openbsd_qcow2.sh -r 7.5 --image-file openbsd-min.qcow2 \ 
+./build_openbsd_qcow2.sh -r 7.8 --image-file openbsd-min.qcow2 \ 
     --size 2 --disklabel custom/disklabel.cloud \ 
     --sets "-game*.tgz -x*.tgz" --allow_root_ssh no -b
 ```
