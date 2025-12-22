@@ -5,8 +5,8 @@ The images are ready-to-use for your favorite cloud provider.
 
 ## Pre-requisites:
 
-* `python3`
-* `sudo`
+* `python3` (for its `http.server` module)
+* `sudo` (for running the `http.server` mirror on port 80)
 * `curl`
 * `signify` (Debian: `signify-openbsd` and `signify-openbsd-keys`)
 * `qemu-system-x86_64`
